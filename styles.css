@@ -1,47 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bahadur Adishov - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    <header>
-        <h1>Bahadur Adishov</h1>
-        <p>Student ID: 26202530202 | Weifang Science and Technology University, China</p>
-        
-        <nav>
-            <a href="index.html">🏠 Home</a>
-            <a href="workinwebprogramming.html">💻 Web Programming</a>
-            <a href="workincprogramming.html">🔧 C Programming</a>
-        </nav>
-    </header>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    color: #333;
+    background: linear-gradient(135deg, #4e54b8, #8f94fb);
+    min-height: 100vh;
+}
 
-    <div class="main-content">
+header {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
 
-        <div style="text-align: center; margin: 30px 0 50px 0;">
-            <img src="my-photo.jpg" alt="Bahadur Adishov" 
-                 style="width: 260px; height: 260px; border-radius: 50%; border: 8px solid #3498db; box-shadow: 0 10px 30px rgba(0,0,0,0.25);">
-            <h2>Azerbaijani Student in China</h2>
-        </div>
+header h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+}
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I am Bahadur Adishov, an Azerbaijani student currently studying at Weifang Science and Technology University in China. I love programming and exploring new cultures.</p>
-        </section>
+header p {
+    font-size: 1.25em;
+    margin-bottom: 25px;
+}
 
-        <section id="education">
-            <h2>Education & Learning Experience</h2>
-            <p>Bu hissəni indi geniş yazacağıq. Header problemi həll olunmalıdır.</p>
-        </section>
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 1.25em;
+    font-weight: 600;
+    padding: 14px 28px;
+    border-radius: 50px;
+    display: inline-block;
+    transition: all 0.4s;
+}
 
-    </div>
+nav a:hover {
+    background: #3498db;
+    color: #ffd700;
+    transform: translateY(-4px);
+}
 
-    <footer>
-        <p>&copy; 2026 Bahadur Adishov | All Rights Reserved</p>
-    </footer>
+.main-content {
+    max-width: 1150px;
+    margin: 40px auto;
+    padding: 50px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
 
-</body>
-</html>
+h2 {
+    color: #2c3e50;
+    margin: 45px 0 25px 0;
+    padding-bottom: 15px;
+    border-bottom: 5px solid #3498db;
+    font-size: 2em;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 80px;
+}
+
+/* Əlavə gözəllik */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
