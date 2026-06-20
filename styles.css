@@ -23,30 +23,42 @@ body {
 header {
     background: linear-gradient(135deg, #2c3e50, #3498db);
     color: white;
-    padding: 40px 0;
+    padding: 35px 0;
     text-align: center;
     border-radius: 0 0 20px 20px;
+}
+
+header h1 {
+    margin-bottom: 12px;
+    font-size: 2.2em;
+}
+
+nav {
+    margin-top: 15px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 20px;
+    margin: 0 18px;
     font-weight: bold;
-    transition: 0.3s;
+    font-size: 1.1em;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.3s;
+    display: inline-block;
 }
 
 nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
     color: #ffd700;
-    transform: scale(1.08);
+    transform: translateY(-3px);
 }
 
-h1, h2 {
+/* Digər stil */
+h2 {
     color: #2c3e50;
-}
-
-section {
-    margin: 50px 0;
+    margin: 35px 0 20px 0;
 }
 
 .exercise-list li {
@@ -69,10 +81,5 @@ footer {
     text-align: center;
     padding: 30px;
     border-radius: 15px 15px 0 0;
-}
-
-/* Kontrast düzəlişi */
-p, li {
-    color: #333;
-    font-size: 1.05em;
+    margin-top: 50px;
 }
