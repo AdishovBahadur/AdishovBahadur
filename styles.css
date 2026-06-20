@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 20px auto;
     padding: 30px;
     background: white;
@@ -21,65 +21,68 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #2c3e50, #3498db);
+    background: linear-gradient(135deg, #2c3e50, #1a2533);
     color: white;
-    padding: 35px 0;
+    padding: 40px 0;
     text-align: center;
     border-radius: 0 0 20px 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 header h1 {
-    margin-bottom: 12px;
-    font-size: 2.2em;
+    font-size: 2.4em;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 1.1em;
+    opacity: 0.95;
 }
 
 nav {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 nav a {
-    color: white;
+    color: white !important;
     text-decoration: none;
-    margin: 0 18px;
+    margin: 0 20px;
     font-weight: bold;
-    font-size: 1.1em;
-    padding: 8px 16px;
+    font-size: 1.15em;
+    padding: 12px 20px;
     border-radius: 8px;
-    transition: all 0.3s;
     display: inline-block;
+    transition: all 0.3s;
+    background: rgba(255,255,255,0.1);
 }
 
 nav a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #ffd700;
-    transform: translateY(-3px);
+    background: #3498db;
+    color: #ffd700 !important;
+    transform: translateY(-4px);
 }
 
-/* Digər stil */
+/* Digər ümumi stil */
 h2 {
     color: #2c3e50;
-    margin: 35px 0 20px 0;
+    margin: 40px 0 25px 0;
+    border-bottom: 4px solid #3498db;
+    padding-bottom: 12px;
 }
 
 .exercise-list li {
     background: #f8f9fa;
-    margin: 18px 0;
-    padding: 22px;
+    margin: 20px 0;
+    padding: 25px;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    transition: 0.3s;
-}
-
-.exercise-list li:hover {
-    transform: translateY(-8px);
-    background: #e8f0ff;
 }
 
 footer {
     background: #2c3e50;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 35px;
+    margin-top: 60px;
     border-radius: 15px 15px 0 0;
-    margin-top: 50px;
 }
