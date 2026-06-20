@@ -1,5 +1,4 @@
-/* styles.css - Yenilənmiş və təmizlənmiş versiya */
-
+/* styles.css */
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +7,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
+    line-height: 1.7;
     color: #333;
     background-color: #f9f9f9;
 }
@@ -22,18 +21,18 @@ body {
 header {
     background-color: #2c3e50;
     color: white;
-    padding: 25px 0;
+    padding: 30px 0;
     text-align: center;
 }
 
 header h1 {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 18px;
     font-weight: bold;
 }
 
@@ -42,43 +41,40 @@ nav a:hover {
 }
 
 section {
-    padding: 50px 0;
-    border-bottom: 1px solid #eee;
+    padding: 60px 0;
 }
 
 section:nth-child(even) {
-    background-color: #f8f9fa;
+    background-color: #f1f1f1;
 }
 
 h2 {
     color: #2c3e50;
     margin-bottom: 25px;
     border-bottom: 3px solid #3498db;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
 }
 
 .exercise-list {
     list-style: none;
-    padding: 0;
 }
 
 .exercise-list li {
     background: white;
-    margin: 12px 0;
-    padding: 18px 20px;
+    margin: 15px 0;
+    padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
-    font-size: 1.1em;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 .exercise-list a {
     color: #2980b9;
     text-decoration: none;
+    font-size: 1.1em;
 }
 
 .exercise-list a:hover {
     text-decoration: underline;
-    color: #1f5f8c;
 }
 
 footer {
@@ -86,19 +82,9 @@ footer {
     color: white;
     text-align: center;
     padding: 25px 0;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
-/* Əlavə təhlükəsizlik */
 p {
-    margin-bottom: 16px;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
+    margin-bottom: 15px;
 }
