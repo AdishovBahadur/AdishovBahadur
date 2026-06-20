@@ -8,7 +8,6 @@
 </head>
 <body>
 
-    <!-- HEADER -->
     <header>
         <h1>Bahadur Adishov</h1>
         <p>Student ID: 26202530202 | Weifang Science and Technology University, China</p>
@@ -20,28 +19,27 @@
         </nav>
     </header>
 
-    <!-- ƏSAS MƏZMUN -->
     <div class="main-content">
 
         <div style="text-align: center; margin: 30px 0 50px 0;">
             <img src="my-photo.jpg" alt="Bahadur Adishov" 
-                 style="width: 240px; height: 240px; border-radius: 50%; border: 8px solid #3498db;">
-            <p><strong>Azerbaijani Student in China</strong></p>
+                 style="width: 260px; height: 260px; border-radius: 50%; border: 8px solid #3498db; box-shadow: 0 10px 30px rgba(0,0,0,0.25);">
+            <h2>Azerbaijani Student in China</h2>
         </div>
 
         <section id="about">
             <h2>About Me</h2>
-            <p>Hello! I am Bahadur Adishov...</p>
+            <p>Hello! I am Bahadur Adishov, an Azerbaijani student currently studying at Weifang Science and Technology University in China. I love programming and exploring new cultures.</p>
         </section>
 
         <section id="education">
             <h2>Education & Learning Experience</h2>
-            <p>Bu hissəni sonra genişləndirəcəyik.</p>
+            <p>Bu hissəni indi geniş yazacağıq. Header problemi həll olunmalıdır.</p>
         </section>
 
     </div>
 
-    <footer style="background:#2c3e50; color:white; text-align:center; padding:40px; margin-top:60px;">
+    <footer>
         <p>&copy; 2026 Bahadur Adishov | All Rights Reserved</p>
     </footer>
 
