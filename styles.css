@@ -6,73 +6,73 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
+    line-height: 1.7;
     color: #333;
-    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 .container {
     max-width: 1100px;
-    margin: 0 auto;
-    padding: 25px;
+    margin: 20px auto;
+    padding: 30px;
     background: white;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    margin-top: 20px;
-    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
 }
 
 header {
     background: linear-gradient(135deg, #2c3e50, #3498db);
     color: white;
-    padding: 35px 0;
+    padding: 40px 0;
     text-align: center;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 20px 20px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 18px;
+    margin: 0 20px;
     font-weight: bold;
     transition: 0.3s;
 }
 
 nav a:hover {
     color: #ffd700;
-    transform: scale(1.1);
+    transform: scale(1.08);
 }
 
 h1, h2 {
     color: #2c3e50;
 }
 
+section {
+    margin: 50px 0;
+}
+
 .exercise-list li {
-    background: white;
+    background: #f8f9fa;
     margin: 18px 0;
     padding: 22px;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: 0.3s;
 }
 
 .exercise-list li:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 25px rgba(0,0,0,0.15);
-}
-
-.exercise-list a {
-    color: #2980b9;
-    text-decoration: none;
-    font-size: 1.15em;
-    font-weight: 600;
+    background: #e8f0ff;
 }
 
 footer {
     background: #2c3e50;
     color: white;
     text-align: center;
-    padding: 25px;
-    margin-top: 40px;
-    border-radius: 12px 12px 0 0;
+    padding: 30px;
+    border-radius: 15px 15px 0 0;
+}
+
+/* Kontrast düzəlişi */
+p, li {
+    color: #333;
+    font-size: 1.05em;
 }
